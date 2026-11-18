@@ -1,0 +1,13 @@
+# ---------------------------------------------------------------
+# Settings for the Blood Donation app. Edit these for your laptop.
+# This file must stay in the project folder (next to pom.xml).
+# ---------------------------------------------------------------
+
+# Your MySQL connection
+db.url=jdbc:mysql://localhost:3306/blood_donor_databse?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata
+db.user=root
+db.password=CHANGE_ME_TO_YOUR_MYSQL_PASSWORD
+
+# Login for the app's first screen
+app.username=kirti
+app.password=123

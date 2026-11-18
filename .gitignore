@@ -1,0 +1,11 @@
+target/
+bin/
+photos/
+*.csv
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+db.properties
