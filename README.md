@@ -89,16 +89,3 @@ db.properties                 your MySQL password and app login
 pom.xml                       Maven build (JavaFX + MySQL driver)
 ```
 
-## What changed from the original
-
-- Uses Maven, so it runs on any laptop. Previously it needed a MySQL jar at `C:/Users/HP/...` and e(fx)clipse.
-- The MySQL password and login are in `db.properties`. They used to be hard-coded in 11 files.
-- MySQL driver updated from 5.1.6 to 8.4.0.
-- Added the **O+ / O-** blood groups everywhere.
-- **Issue Blood** works: it used to fail with a column-count error, and it now saves the blood group and units.
-- History screens open on every OS. File-name case mismatches are fixed.
-- Donations are no longer saved for invalid mobile numbers. A date is required.
-- Donor update runs once instead of twice, and keeps the existing photo if you don't pick a new one.
-- Donor photos are copied into `photos/`, so they still work if the project is moved.
-- Issued history filters (blood group, date) are optional. Leave them empty to list everything.
-- Forms are checked before saving, errors are shown instead of hidden, CSV export handles commas, and the login password is masked.
